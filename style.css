@@ -1,20 +1,38 @@
+
+*{
+    font-family: 'Zilla Slab', serif;
+
+}
+
 .container{
     background-color:rgba(0, 0, 255, 0.295);
-}
+    border:5px solid white;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;}
 
 h1{
     display:flex;
     justify-content: center;
 }
-.button{
-    
-    font-size: 30px;
-    border-radius: 8px;
-    background-color:rgba(0, 0, 0, 0.075);
-    width: auto;
-}
 
+
+
+.button{
+    padding:10px;
+    width: 185px;
+    border-radius: 8px;
+    margin:15px;
+}
+.button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 .submit-group{
     display:flex;
-    rotate: right;
+    justify-content: center;
 }
+
+
+  
+  
+  
+ 
